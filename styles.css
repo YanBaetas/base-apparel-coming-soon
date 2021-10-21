@@ -86,14 +86,11 @@ body {
 
 .submit-email input.error {
   background: url("./images/icon-error.svg") no-repeat 70% 10px;
+  outline: 1px solid var(--soft-red);
 }
 
 .submit-email input:focus-visible {
   outline: 1px solid var(--desaturated-red);
-}
-
-.submit-email input.error:focus-visible {
-  outline: 1px solid var(--soft-red);
 }
 
 .submit-email input::placeholder {
